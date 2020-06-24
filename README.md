@@ -8,4 +8,4 @@
 # 🚧 In Construction
 
 Project under [MIT license](https://github.com/fbFideles/todo-list/blob/master/LICENSE)
-Built by [Felipe Fideles](https://github.com/fbFideles)
+Built by [Felipe Fideles](https://github.com/fbFideles) in 2020
