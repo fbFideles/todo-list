@@ -1,2 +1,9 @@
-# todo-list
-for my initial studies of frontend development, i built a simple todo page with html, css and applying material design dark theme principles.
+# Todo List
+
+> Manage your tasks with efficiency
+
+#🚧 In Construction
+
+Project under [MIT license](https://github.com/fbFideles/todo-list/blob/master/LICENSE)
+
+Built by [Felipe Fideles](https://github.com/fbFideles)
