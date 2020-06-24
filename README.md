@@ -7,9 +7,10 @@
 > For my initial studies of frontend development, i built a simple todo page applying responsive layout and material design principles.
 
 # 🔬 Techs:
-> HTML 5
- CSS 3
- Javascript (ES8)
+ 
+* HTML 5
+* CSS 3
+* Javascript (ES8)
 
 # 🏗 In Construction
 
