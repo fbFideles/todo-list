@@ -8,8 +8,8 @@
 
 # 🔬 Techs:
 > HTML 5
-> CSS 3
-> Javascript (ES8)
+ CSS 3
+ Javascript (ES8)
 
 # 🏗 In Construction
 
