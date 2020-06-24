@@ -1,5 +1,5 @@
-# 📋
-# Todo List
+
+# 📝 Todo List
 
 > Manage your tasks with efficiency
 
