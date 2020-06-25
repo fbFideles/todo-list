@@ -1,9 +1,9 @@
-
 # 📝 Todo List
 
 > Manage your tasks with efficiency
 
-# 🎯 Objective: 
+# 🎯 Objective:
+
 > For my initial studies of frontend development, i built a simple todo page with html, css, javascript and applying responsive layout and material design dark theme principles.
 
 # 🚧 In Construction
