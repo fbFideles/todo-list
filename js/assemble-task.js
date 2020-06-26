@@ -1,7 +1,4 @@
-const addTaskButton = document.getElementById('create-task')
-const listTask = document.getElementById('list-task')
-
-addTaskButton.onclick = () => {
+const assembleTask = (titleData, descriptionData) => {
   let task = document.createElement('div')
   let taskTitle = document.createElement('h1')
   let sectionLine1 = document.createElement('hr')
@@ -26,8 +23,8 @@ addTaskButton.onclick = () => {
   buttonSection.appendChild(buttonGreen)
   buttonSection.appendChild(buttonRed)
 
-  taskTitle.innerHTML = 'Lorem, ipsum dolor.'
-  description.innerHTML = 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio quam sit consectetur libero dolorem alias enim fugiat ex blanditiis dicta nisi exercitationem nostrum rerum soluta, numquam incidunt quaerat necessitatibus ducimus.'
+  taskTitle.innerHTML = titleData
+  description.innerHTML = descriptionData
 
   task.appendChild(taskTitle)
   task.appendChild(sectionLine1)
@@ -37,5 +34,5 @@ addTaskButton.onclick = () => {
 
   task.classList.add('task')
 
-  listTask.appendChild(task)
+  return task
 }
