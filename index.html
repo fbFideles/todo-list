@@ -11,15 +11,15 @@
 <body>
   <div id="create-task-modal">
     <div class="create-task-form">
-      <h1>Lorem, ipsum dolor.</h1>
+      <input id="modalInput" type="text" placeholder="title">
       <hr/>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio quam sit consectetur libero dolorem alias enim fugiat ex blanditiis dicta nisi exercitationem nostrum rerum soluta, numquam incidunt quaerat necessitatibus ducimus.</p>
+      <textarea id="modalTextArea" cols="30" rows="10" placeholder="description"></textarea>
       <hr/>
       <section>
-        <button class="green-button">
+        <button class="green-button" id="submitButton">
           <img src="/assets/SVGs/done-black-48dp.svg" alt="">
         </button>
-        <button class="red-button">
+        <button class="red-button" id="closeButton">
           <img src="/assets/SVGs/close-black-48dp.svg" alt="">
         </button>
       </section>
@@ -35,12 +35,13 @@
       <div></div>
     </section>
   </header>
-
   
   <div class="list-task" id="list-task"></div>
 
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
   <script src="js/assemble-task.js"></script>
-  <script src="js/api-response.js"></script>
+  <script src="js/api.js"></script>
   <script src="js/index.js"></script>
 </body>
 </html>
