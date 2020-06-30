@@ -1,8 +1,10 @@
 const addTaskButton = document.getElementById('create-task')
 const listTask = document.getElementById('list-task')
 
+const modal = document.getElementById('create-task-modal')
+
 addTaskButton.onclick = () => {
-  console.log('adding')
+  modal.style.display = 'block'
 }
 
 apiData().then(data => {

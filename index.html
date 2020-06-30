@@ -5,8 +5,27 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>todo list</title>
   <link rel="shortcut icon" href="assets/1567073.png" type="image/x-icon">
+
   <link rel="stylesheet" href="css/main.css">
+
 <body>
+  <div id="create-task-modal">
+    <div class="create-task-form">
+      <h1>Lorem, ipsum dolor.</h1>
+      <hr/>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio quam sit consectetur libero dolorem alias enim fugiat ex blanditiis dicta nisi exercitationem nostrum rerum soluta, numquam incidunt quaerat necessitatibus ducimus.</p>
+      <hr/>
+      <section>
+        <button class="green-button">
+          <img src="/assets/SVGs/done-black-48dp.svg" alt="">
+        </button>
+        <button class="red-button">
+          <img src="/assets/SVGs/close-black-48dp.svg" alt="">
+        </button>
+      </section>
+    </div>
+  </div>
+  
   <header>
     <section>
       <button class="create-task" id="create-task">
@@ -16,6 +35,8 @@
       <div></div>
     </section>
   </header>
+
+  
   <div class="list-task" id="list-task"></div>
 
   <script src="js/assemble-task.js"></script>
