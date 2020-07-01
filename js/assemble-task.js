@@ -1,8 +1,11 @@
-const assembleTask = (titleData, descriptionData) => {
+const assembleTask = (elementTask) => {
+  const { _id, title, description } = elementTask
+  
   let task = document.createElement('div')
+
   let taskTitle = document.createElement('h1')
   let sectionLine1 = document.createElement('hr')
-  let description = document.createElement('p')
+  let taskDescription = document.createElement('p')
   let sectionLine2 = document.createElement('hr')
   
   let buttonSection = document.createElement('section')
@@ -23,15 +26,16 @@ const assembleTask = (titleData, descriptionData) => {
   buttonSection.appendChild(buttonGreen)
   buttonSection.appendChild(buttonRed)
 
-  taskTitle.innerHTML = titleData
-  description.innerHTML = descriptionData
+  taskTitle.innerHTML = title
+  taskDescription.innerHTML = description
 
   task.appendChild(taskTitle)
   task.appendChild(sectionLine1)
-  task.appendChild(description)
+  task.appendChild(taskDescription)
   task.appendChild(sectionLine2)
   task.appendChild(buttonSection)
 
+  task.setAttribute('taskId', _id)
   task.classList.add('task')
 
   return task

@@ -32,7 +32,7 @@ apiGetData().then(response => {
   response.data.reverse()
 
   response.data.forEach(element => {
-    const assembledTask = assembleTask(element.title, element.description)
+    const assembledTask = assembleTask(element)
 
     listTask.appendChild(assembledTask)
   })
