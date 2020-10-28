@@ -14,9 +14,11 @@ const apiPostData = async (titleData, descriptionData) => {
     const response = await axios.post('https://floating-shore-71040.herokuapp.com/tasks', {
       title: titleData,
       description: descriptionData
-    })  
+    });
     
-    return response
+    location.reload();
+    
+    return response;
   } 
   catch (error) {
     return error

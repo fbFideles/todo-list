@@ -13,12 +13,14 @@ addTaskButton.onclick = () => {
 }
 
 modalSubmitButton.onclick = () => {
-  apiPostData(modalInput.value, modalTextarea.value)
+  apiPostData(modalInput.value, modalTextarea.value);
 
-  modalInput.value = ''
-  modalTextarea.value = ''
+  modalInput.value = '';
+  modalTextarea.value = '';
 
-  modal.style.display = 'none'
+  modal.style.display = 'none';
+
+  
 }
 
 modalCloseButton.onclick = () => {
