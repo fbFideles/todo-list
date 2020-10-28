@@ -12,12 +12,12 @@ const assembleTask = (elementTask) => {
   
   let buttonRed = document.createElement('button')
   let imageButtonRed = document.createElement('img')
-  imageButtonRed.setAttribute('src', '/assets/SVGs/close-black-48dp.svg')
+  imageButtonRed.setAttribute('src', 'assets/SVGs/close-black-48dp.svg')
   buttonRed.appendChild(imageButtonRed)
 
   let buttonGreen = document.createElement('button') 
   let imageButtonGreen = document.createElement('img')
-  imageButtonGreen.setAttribute('src', '/assets/SVGs/done-black-48dp.svg')
+  imageButtonGreen.setAttribute('src', 'assets/SVGs/done-black-48dp.svg')
   buttonGreen.appendChild(imageButtonGreen)
 
   buttonRed.classList.add('red-button')
